@@ -1,0 +1,89 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Questionnaire Form */
+#questionForm {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Questions */
+.question {
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+  background: #5D93E1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #4A81D4;
+}
+
+/* Form Inputs */
+input[type='number'] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+label{
+  text-align: center;
+}
+
+.button_question1.clicked{
+  background-color: aqua;
+}
+.button_question2.clicked{
+  background-color: aqua;
+}
+.button_question3.clicked{
+  background-color: aqua;
+}

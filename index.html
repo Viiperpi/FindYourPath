@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find your way</title>
+  <link rel="stylesheet" href="./index.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.5.0/math.min.js"></script>
+  <script src="./index.js" defer></script>
+</head>
+<body>
+  <h1>Find the right path for you</h1>
+  <div class="container">
+    <h1>Questionnaire</h1>
+    <form id="questionForm">
+      <!--Question 1-->
+      <div class="question1">
+        <label>Question 1: Do you like reading</label><br>
+        <button type="Button" id="10" class="button_question1" onclick="fonction_question1(this,0)">0</button>
+        <button type="Button" id="11" class="button_question1" onclick="fonction_question1(this,1)">1</button>
+        <button type="Button" id="12" class="button_question1" onclick="fonction_question1(this,2)">2</button>
+        <button type="Button" id="13" class="button_question1" onclick="fonction_question1(this,3)">3</button>
+        <button type="Button" id="14" class="button_question1" onclick="fonction_question1(this,4)">4</button>
+        <button type="Button" id="15" class="button_question1" onclick="fonction_question1(this,5)">5</button>
+        <button type="Button" id="16" class="button_question1" onclick="fonction_question1(this,6)">6</button>
+        <button type="Button" id="17" class="button_question1" onclick="fonction_question1(this,7)">7</button>
+        <button type="Button" id="18" class="button_question1" onclick="fonction_question1(this,8)">8</button>
+        <button type="Button" id="19" class="button_question1" onclick="fonction_question1(this,9)">9</button>
+        <button type="Button" id="110" class="button_question1" onclick="fonction_question1(this,10)">10</button>
+      </div>
+
+      <!--Question 2-->
+      <div class="question1">
+        <label>Question 2: Do you like logic</label><br>
+        <button type="Button" id="20" class="button_question2" onclick="fonction_question2(this,0)">0</button>
+        <button type="Button" id="21" class="button_question2" onclick="fonction_question2(this,1)">1</button>
+        <button type="Button" id="22" class="button_question2" onclick="fonction_question2(this,2)">2</button>
+        <button type="Button" id="23" class="button_question2" onclick="fonction_question2(this,3)">3</button>
+        <button type="Button" id="24" class="button_question2" onclick="fonction_question2(this,4)">4</button>
+        <button type="Button" id="25" class="button_question2" onclick="fonction_question2(this,5)">5</button>
+        <button type="Button" id="26" class="button_question2" onclick="fonction_question2(this,6)">6</button>
+        <button type="Button" id="27" class="button_question2" onclick="fonction_question2(this,7)">7</button>
+        <button type="Button" id="28" class="button_question2" onclick="fonction_question2(this,8)">8</button>
+        <button type="Button" id="29" class="button_question2" onclick="fonction_question2(this,9)">9</button>
+        <button type="Button" id="210" class="button_question2" onclick="fonction_question2(this,10)">10</button>
+      </div>
+
+      <!--Question 3-->
+      <div class="question1">
+        <label>Question 3: How much is important justice for you ?</label><br>
+        <button type="Button" id="30" class="button_question3" onclick="fonction_question3(this,0)">0</button>
+        <button type="Button" id="31" class="button_question3" onclick="fonction_question3(this,1)">1</button>
+        <button type="Button" id="32" class="button_question3" onclick="fonction_question3(this,2)">2</button>
+        <button type="Button" id="33" class="button_question3" onclick="fonction_question3(this,3)">3</button>
+        <button type="Button" id="34" class="button_question3" onclick="fonction_question3(this,4)">4</button>
+        <button type="Button" id="35" class="button_question3" onclick="fonction_question3(this,5)">5</button>
+        <button type="Button" id="36" class="button_question3" onclick="fonction_question3(this,6)">6</button>
+        <button type="Button" id="37" class="button_question3" onclick="fonction_question3(this,7)">7</button>
+        <button type="Button" id="38" class="button_question3" onclick="fonction_question3(this,8)">8</button>
+        <button type="Button" id="39" class="button_question3" onclick="fonction_question3(this,9)">9</button>
+        <button type="Button" id="310" class="button_question3" onclick="fonction_question3(this,10)">10</button>
+      </div>
+    </form>
+  </div>
+  <button onclick=submit()>Submit</button>
+  <p id="result"><a href="" id="FieldOfStudy" target="_blank"></a></p>
+</body>
+</html>
